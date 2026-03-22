@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu</title>
+	<link rel="stylesheet" href="mainStyles.css">
+	<link rel="stylesheet" href="menuStyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		<!--Navigation bar-->
+		<nav>
+			<div class="navigationBar">
+				<a href="Home.html"><img class="logo" src="logThree.png" alt="Restaurant Logo" ></a>
+				<div class= "navLinks">
+					<a class="active" href="Home.html" target="_blank">Home</a>
+					<a href="Menu.html" target="_blank">Menu</a>
+					<a href="About.html" target="_blank">About Us</a>
+					<a href="Gallery.html" target="_blank">Gallery</a>
+					<a href="Contact.html" target="_blank">Contact Us</a>
+					<div id="onlineOrder">
+						<a href="OnlineOrder.html" target="_blank" class="button">Online Order</a>
+					</div>
+				</div>
+			</div>	
+		</nav>	
+	</header>
+
+	
+
+	<!--Filter buttons-->
+	<h1 id="detail">Category</h1>
+	<section class="menuFilters">
+		<h2> Filters: </h2>
+		<button class="btn" onclick="applyFilter('all')">All</button>
+		<button class="btn" onclick="applyFilter('pop')">Popular</button>
+		<button class="btn" onclick="applyFilter('app')">Appetizers</button>
+		<button class="btn" onclick="applyFilter('main')">Mains</button>
+		<button class="btn" onclick="applyFilter('bev')">Beverages</button>
+		<button class="btn" onclick="applyFilter('des')">Desserts</button>
+		<button class="btn" onclick="applyFilter('veg')">Vegetarian</button>
+		<button class="btn" onclick="applyFilter('non')">Non-vegetarian</button>
+		<button class="btn" onclick="applyFilter('bel')">Below Rs.1000</button>
+		<button class="btn" onclick="applyFilter('ab')">Above Rs.2500</button>
+	</section>
+
+	<section id="menuDisplay">		
+	</section>
+
+	<footer>
+		<div class="foot">
+			<div class="hoursFooter">
+				<h2>Operating Hours</h2>
+				<p>Tuesday to Sunday : <br> 11.00 A.M to 9.00 P.M <br><br> Monday : <br> 11.00 A.M to 2.00 P.M
+			</div>
+			<div class="addressFooter">
+				<h2>Location</h2>
+				<p> No 29, Galle Road, Colombo 03.</p>
+			</div>
+			<div class= "contactFooter">
+				<h2>Get in touch</h2>
+				<p> Email : rafale@gmail.com <br><br> Phone : 0112-112929 
+			</div>
+			<div class="socialFooter">
+				<h2>Stay Updated</h2>
+				<div class="social-links">
+					<a href="https://www.facebook.com" class="fa fa-facebook" target="_blank" aria-label="Facebook"></a>
+					<a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" aria-label="Instagram"></a>
+					<a href="https://wa.me/yournumber" class="fa fa-whatsapp" target="_blank" aria-label="WhatsApp"></a>
+					<a href="https://www.pinterest.com" class="fa fa-pinterest" target="_blank" aria-label="Pinterest"></a>
+					<a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank" aria-label="LinkedIn"></a>
+					<a href="https://www.x.com" class="fa fa-x" target="_blank" aria-label="X"></a>
+				</div>
+			</div>
+		</div>		
+	</footer>
+	
+	<script src="menuScript.js"></script>
+	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

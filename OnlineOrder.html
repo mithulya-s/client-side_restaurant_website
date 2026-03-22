@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="mainStyles.css">
+	<link rel="stylesheet"  href="onlineStyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<title>Online Order</title>
+</head>
+
+<body>
+	<header>
+		<!--Navigation bar-->
+		<nav>
+			<div class="navigationBar">
+				<a href="Home.html"><img class="logo" src="logThree.png" alt="Restaurant Logo" ></a>
+				<div class= "navLinks">
+					<a class="active" href="Home.html" target="_blank">Home</a>
+					<a href="Menu.html" target="_blank">Menu</a>
+					<a href="About.html" target="_blank">About Us</a>
+					<a href="Gallery.html" target="_blank">Gallery</a>
+					<a href="Contact.html" target="_blank">Contact Us</a>
+					<div id="onlineOrder">
+						<a href="OnlineOrder.html" target="_blank" class="button">Online Order</a>
+					</div>
+				</div>
+			</div>	
+		</nav>	
+	</header>
+
+	<section class="pgIntro">
+		<h1>Online Order placement.</h1>
+		<p>We’ve made it easy for you to enjoy the flavors of Rafale from the comfort of your home.<br> 
+			Simply Choose your favorite dishes and add the quantity by using the counter.<br>
+			Next fill in your personal details and let us know any special requests.<br> 
+			Submit your order we’ll take care of the rest!</p>	
+	</section>
+
+
+	<div class="orderFormFull">
+	<form id="orderForm" action="thankYou.html" method="post" novalidate > 
+		<div class="dishSelect">
+			<fieldset id="dishes">
+				<legend>Select Dishes</legend>
+
+			<section class="menuCategories">
+				<div class="appetizers">
+					<h2 class="categoryTitle">Appetizers</h2>
+					<div class="cardContainer">
+						<div class="card">
+							<img src="onion.png" alt="onion soup">
+							<div class="textCont">
+								<h3>Classic French Onion Soup</h3>
+								<p>Caramelized onions in a savory broth, topped with a golden crust of melted Gruyère cheese.</p>
+								<p class="pr">Rs.1200.00</p>
+								<label for="onionQty">Quantity:</label> 
+								<input type="number" name="qty" id="onionQty" class="quantity" data-price="1200">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="nic.png" alt="nicoise">
+							<div class="textCont">
+								<h3>Niçoise salad</h3>
+								<p>A vibrant mix of fresh vegetables, tuna, and olives, dressed in a tangy vinaigrette.</p>	
+								<p class="pr">Rs.1500.00</p>
+								<label for="nicQty">Quantity:</label> 
+								<input type="number" name="qty" id="nicQty" class="quantity" data-price="1500">
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="confit.png" alt="confit">
+							<div class="textCont">
+								<h3>Tomato Confit</h3>
+								<p>Slow-roasted cherry tomatoes with aromatic herbs and olive oil, bursting with flavor.</p>
+								<p class="pr">Rs.1000.00</p>
+								<label for="confitQty">Quantity:</label> 
+								<input type="number" name="qty" id="confitQty" class="quantity" data-price="1000">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="boul.png" alt="Bouillabaisse">
+							<div class="textCont">
+								<h3>Bouillabaisse</h3>
+								<p>A rich Provençal fish stew with a medley of seafood, saffron, and vegetables.</p>
+								<p class="pr">Rs.2200.00</p>
+								<label for="boulQty">Quantity:</label> 
+								<input type="number" name="qty" id="boulQty" class="quantity" data-price="2200">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="puffs.png" alt="cheese puff">
+							<div class="textCont">
+								<h3>Gougères</h3>
+								<p>Light and airy choux pastry bites filled with creamy, savory cheese.</p>
+								<p class="pr">Rs.900.00</p>	
+								<label for="puffQty">Quantity:</label> 
+								<input type="number" name="qty" id="puffQty" class="quantity" data-price="900">
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			
+				<br>
+				<br>
+			
+				<div class="mains">
+					<h2 class="categoryTitle">Mains</h2>
+					<div class="cardContainer">
+			
+						<div class="card">
+							<img src="lob.png" alt="lobster">
+							<div class="textCont">
+								<h3>Lobster Thermidor</h3>
+								<p>Succulent lobster meat in a creamy mustard sauce, topped with a golden cheese crust.</p>	
+								<p class="pr">Rs.3800.00</p>
+								<label for="lobQty">Quantity:</label> 
+								<input type="number" name="qty" id="lobQty" class="quantity" data-price="3800">
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="dijon.png" alt="dijon">
+							<div class="textCont">
+								<h3>Chicken Dijon</h3>
+								<p>Tender chicken breasts in a creamy mustard sauce with a hint of white wine.</p>
+								<p class="pr">Rs.2000.00</p>
+								<label for="dijonQty">Quantity:</label> 
+								<input type="number" name="qty" id="dijonQty" class="quantity" data-price="2000">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="quiche.png" alt="quiche">
+							<div class="textCont">
+								<h3>Quiche Lorraine</h3>
+								<p>The classic savory tart with bacon, cheese, and a rich custard filling.</p>
+								<p class="pr">Rs.1800.00</p>
+								<label for="quicheQty">Quantity:</label> 
+								<input type="number" name="qty" id="quicheQty" class="quantity" data-price="1800">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="ril.png" alt="rilette">
+							<div class="textCont">
+								<h3>Salmon Rillette on toast</h3>
+								<p>A creamy spread of smoked salmon, herbs, and a touch of lemon zest on fresh-baked bread</p>
+								<p class="pr">Rs.2500.00</p>
+								<label for="rilQty">Quantity:</label> 
+								<input type="number" name="qty" id="rilQty" class="quantity" data-price="2500">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="ratatouille.png" alt="ratatouille">
+							<div class="textCont">
+								<h3>Ratatouille</h3>
+								<p>A hearty vegetable stew of eggplant, zucchini, tomatoes, and bell peppers.</p>
+								<p class="pr">Rs.1600.00</p>
+								<label for="ratatouQty">Quantity:</label> 
+								<input type="number" name="qty" id="ratatouQty" class="quantity" data-price="1600">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="bell.png" alt="bells">
+							<div class="textCont">
+								<h3>Stuffed Peppers</h3>
+								<p>Bell peppers filled with a savory mixture of rice, herbs, and vegetables.</p>
+								<p class="pr">Rs.1400.00</p>
+								<label for="bellQty">Quantity:</label> 
+								<input type="number" name="qty" id="bellQty" class="quantity" data-price="1400">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="salmon.png" alt="salmon">
+							<div class="textCont">
+								<h3>Herb crusted salmon</h3>
+								<p>Fresh salmon fillet coated in a fragrant herb crust, baked to perfection.</p>
+								<p class="pr">Rs.3000.00</p>
+								<label for="salmonQty">Quantity:</label> 
+								<input type="number" name="qty" id="salmonQty" class="quantity" data-price="3000">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="cass.png" alt="casserole">
+							<div class="textCont">
+								<h3>Classic Chicken Cassoulet</h3>
+								<p>A comforting casserole of chicken, beans, and savory herbs, slow-cooked to perfection.</p>
+								<p class="pr">Rs.2200.00</p>
+								<label for="cassQty">Quantity:</label> 
+								<input type="number" name="qty" id="cassQty" class="quantity" data-price="2200">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="risotto.png" alt="risotto">
+							<div class="textCont">
+								<h3>Mushroom Risotto</h3>
+								<p>Creamy Arborio rice cooked with earthy mushrooms and finished with Parmesan.</p>	
+								<p class="pr">Rs.1900.00</p>
+								<label for="risQty">Quantity:</label> 
+								<input type="number" name="qty" id="risQty" class="quantity" data-price="1900">
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="bleu.png" alt="blu">
+							<div class="textCont">
+								<h3>Chicken Corden Bleu</h3>
+								<p>Breaded chicken breast stuffed with ham and cheese, cooked to a golden crisp.</p>
+								<p class="pr">Rs.2300.00</p>
+								<label for="bleuQty">Quantity:</label> 
+								<input type="number" name="qty" id="bleuQty" class="quantity" data-price="2300">	
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<br>
+				<br>
+			
+				<div class="desserts">
+					<h2 class="categoryTitle">Desserts</h2>
+					<div class="cardContainer">
+			
+						<div class="card">
+							<img src="profitero.png" alt="profit">
+							<div class="textCont">
+								<h3>Profiteroles</h3>
+								<p>Delicate choux pastry filled with vanilla ice cream and drizzled with chocolate sauce.</p>
+								<p class="pr">Rs.1200.00</p>
+								<label for="profitQty">Quantity:</label> 
+								<input type="number" name="qty" id="profitQty" class="quantity" data-price="1200">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="tarte.png" alt="tart">
+							<div class="textCont">
+								<h3>Tarte Tatin</h3>
+								<p>The classic upside-down caramelized apple tart with a flaky pastry crust.</p>
+								<p class="pr">Rs.1500.00</p>
+								<label for="tarteQty">Quantity:</label> 
+								<input type="number" name="qty" id="tarteQty" class="quantity" data-price="1500">	
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="poach.png" alt="pear">
+							<div class="textCont">
+								<h3>Poached Pear</h3>
+								<p>Elegant pears poached in a fragrant spiced syrup, served with a drizzle of sauce.</p>
+								<p class="pr">Rs.1300.00</p>
+								<label for="poachQty">Quantity:</label> 
+								<input type="number" name="qty" id="poachQty" class="quantity" data-price="1300">		
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="brulee.png" alt="creme">
+							<div class="textCont">
+								<h3>Crème Brûlée</h3>
+								<p>Silky vanilla custard topped with a thin, crisp layer of caramelized sugar.</p>
+								<p class="pr">Rs.1400.00</p>
+								<label for="bruleeQty">Quantity:</label> 
+								<input type="number" name="qty" id="bruleeQty" class="quantity" data-price="1400">		
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="lava.png" alt="chocolate">
+							<div class="textCont">
+								<h3>Chocolate Souffle</h3>
+								<p>A decadent chocolate dessert with a light, airy texture and a molten center.</p>	
+								<p class="pr">Rs.1800.00</p>
+								<label for="lavaQty">Quantity:</label> 
+								<input type="number" name="qty" id="lavaQty" class="quantity" data-price="1800">	
+							</div>
+						</div>
+			
+					</div>
+				</div>
+			
+				<br>
+				<br>
+				
+				<div class="beverages">
+					<h2 class="categoryTitle">Beverages</h2>
+					<div class="cardContainer">
+			
+						<div class="card">
+							<img src="lavender.png" alt="lav">
+							<div class="textCont">
+								<h3>Lavender Tea</h3>
+								<p>A soothing herbal tea infused with the gentle floral notes of lavender.</p>
+								<p class="pr">Rs.600.00</p>
+								<label for="lavQty">Quantity:</label> 
+								<input type="number" name="qty" id="lavQty" class="quantity" data-price="600">		
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="hibiscus.png" alt="flower tea">
+							<div class="textCont">
+								<h3>Hibiscus Tea</h3>
+								<p>A vibrant, tangy tea made from dried hibiscus flowers, with a hint of natural sweetness.</p>
+								<p class="pr">Rs.600.00</p>
+								<label for="hibQty">Quantity:</label> 
+								<input type="number" name="qty" id="hibQty" class="quantity" data-price="600">		
+							</div>
+						</div>
+			
+						<div class="card">
+							<img src="pine.png" alt="fruit juice">
+							<div class="textCont">
+								<h3>Fresh Pressed Juice</h3>
+								<p>Freshly squeezed pineapple juice, a refreshing and tropical delight.</p>
+								<p class="pr">Rs.700.00</p>
+								<label for="pineQty">Quantity:</label> 
+								<input type="number" name="qty" id="pineQty" class="quantity" data-price="700">	
+							</div>
+						</div>
+			
+			
+						<div class="card">
+							<img src="americano.png" alt="cofee one">
+							<div class="textCont">
+								<h3>Americano</h3>
+								<p>A classic espresso diluted with hot water, offering a smooth and rich flavor.</p>
+								<p class="pr">Rs.800.00</p>
+								<label for="ameQty">Quantity:</label> 
+								<input type="number" name="qty" id="ameQty" class="quantity" data-price="800">		
+							</div>
+						</div>
+			
+						
+						<div class="card">
+							<img src="cap.png" alt="coffee two">
+							<div class="textCont">
+								<h3>Cafe au Lait</h3>
+								<p>A perfect blend of hot coffee and steamed milk, for a creamy and comforting drink.</p>
+								<p class="pr">Rs.900.00</p>
+								<label for="capQty">Quantity:</label> 
+								<input type="number" name="qty" id="capQty" class="quantity" data-price="900">		
+							</div>
+						</div>
+			
+					</div>
+				</div>
+			</section>
+			</fieldset>	
+		</div>
+
+		<div class="persDet">
+		    
+		    <fieldset id="personal">
+				<!-- fieldset to border the elements and the legend to name the part -->
+		    	<legend>Personal Details</legend>
+		                
+		        <!-- Name -->
+		        <label for="name">Full Name: </label><br>
+		        <input type="text" name="name" id="name">
+				<br><br>
+
+		        <!-- Contact-->
+		        <label for="tel">Contact Number: </label><br>
+		        <input type="text" name="tel" id="tel">
+				<br><br>
+
+		        <!-- Email -->
+		        <label for="email">Email: </label><br>
+		        <input type="text" name="email" id="email">
+				<br><br>
+		    </fieldset>
+		</div>
+
+		<div class="deliveryDet">
+			<fieldset id="deliFieldset">	
+				<legend class="deliLegend">Delivery Details</legend>
+				<p id="methodText">Choose method of receival:</p><br>
+				<div class="radioButtons">
+					<label for="pickup">
+						<input type="radio" name="deliveryMethod" id="pickup">Pickup
+					</label>
+					<label for="delivery">
+						<input type="radio" name="deliveryMethod" id="delivery">Home Delivery
+					</label>
+				</div>
+			</fieldset>
+			
+			<br><br>
+
+			<div id="adSection">
+				<label for="address">Delivery Address* </label>
+			    <input type="text" name="address" id="address"><br><br>	
+
+			    <label for="deliveryDate">Enter delivery date (DD-MM-YYYY) </label>
+			    <input type="text" name="delDate" id="deliveryDate"><br><br>	
+
+			</div>
+		</div>
+
+		<div class="addDet">
+			<!-- Additional Requests or Information -->
+			<label for="addInfo">Additional Requests or Information</label>
+			<textarea name="extraInfo" id="addInfo"></textarea>
+  			<br><br>
+		</div>
+
+		<div class="totalContainer">
+			<h3>Total: </h3>
+			<span id="total">Rs. 0.00</span>
+		</div>
+		<br>
+
+		<!-- checkbox element for terms and conditions -->
+		 <div class="termCont">
+			<input type="checkbox" id="terms" name="terms" value="terms">
+			<label for="terms">I consent to being contacted by the restaurant via the provided telephone number regarding the status and details of my order.</label>
+		</div>
+		<br><br>
+
+		<!-- submit button      -->
+		<button type="button" id="submitBtn">Submit Order</button>
+	</form>
+	</div>
+
+	<footer>
+		<div class="foot">
+			<div class="hoursFooter">
+				<h2>Operating Hours</h2>
+				<p>Tuesday to Sunday : <br> 11.00 A.M to 9.00 P.M <br><br> Monday : <br> 11.00 A.M to 2.00 P.M
+			</div>
+			<div class="addressFooter">
+				<h2>Location</h2>
+				<p> No 29, Galle Road, Colombo 03.</p>
+			</div>
+			<div class= "contactFooter">
+				<h2>Get in touch</h2>
+				<p> Email : rafale@gmail.com <br><br> Phone : 0112-112929 
+			</div>
+			<div class="socialFooter">
+				<h2>Stay Updated</h2>
+				<div class="social-links">
+					<a href="https://www.facebook.com" class="fa fa-facebook" target="_blank" aria-label="Facebook"></a>
+					<a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" aria-label="Instagram"></a>
+					<a href="https://wa.me/yournumber" class="fa fa-whatsapp" target="_blank" aria-label="WhatsApp"></a>
+					<a href="https://www.pinterest.com" class="fa fa-pinterest" target="_blank" aria-label="Pinterest"></a>
+					<a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank" aria-label="LinkedIn"></a>
+					<a href="https://www.x.com" class="fa fa-x" target="_blank" aria-label="X"></a>
+
+				</div>
+			</div>
+		</div>		
+	</footer>
+
+	<script src="onlineOrderScript.js"></script>
+</body>
+</html> 
