@@ -1,0 +1,268 @@
+
+.heroSection{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.heroVid {
+  height: 700px;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+}
+
+#heroVid{
+  width: 1685px;
+  height: auto;
+  margin-top: 100px;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  margin-left: -86px;
+}
+
+.video-controls{
+  display: none;
+}
+
+
+/*About Section*/
+.aboutGrid{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.textCol{
+  flex: 2 ;
+  background-color: white;
+  padding: 16px;
+  width: 66.6%; /*setting the width of the columns to take up 2/3 of space */
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+.textCol p{
+  margin-left: 20px;
+  line-height: 1.6;
+  text-align: center;
+  margin-right: 20px;
+  letter-spacing: 1px;
+}
+
+.textCol h1{
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+}
+
+#aboutTopic h1{
+  letter-spacing: 1.4px;
+  
+}
+
+.imgCol{
+  flex: 1;
+  background-color: white;
+  padding-right: 0px;
+  width: 33.3%;  /*setting the col width to cover 1/3 of the right */
+  border-radius: 7px;
+  height: 580px;
+
+}
+
+#introImg img{
+  width: 100%;
+  height: 619px; 
+  border-radius: 7px;
+}
+
+
+#aboutBtn{
+  margin-left: 400px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+}
+
+#aboutBtn:hover{
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #353839;
+  transform: scale(1.07);
+}
+
+
+.featureDishes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 7.6px;
+  margin-top: 35px;
+  justify-content: space-between;
+}
+
+.featureDishes h2{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dishCol {
+  flex: 0 1 24%;
+  /*ensured that the columns neither shrink nor grow but stay within 25 % of the page*/
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+
+}
+
+.dishImg img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.dishImg img:hover{
+  transform: scale(1.06);
+}
+
+.dishInfo {
+  text-align: center;
+}
+
+.dishInfo p{
+  font-size: 17px;
+  letter-spacing: 0.9px;
+}
+
+.popButton {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 16px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.4s ease-in-out;
+  position: relative;
+  z-index: 10;
+
+}
+
+.popButton:hover{
+  transform: scale(1.1);
+  background-color: beige;
+  color: #353839;
+  border: 1px solid #353839;
+
+}
+
+.orderBtn {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: -80px;
+  height: 45vh;
+  text-align: center;
+  margin-left: 470px; 
+  margin-bottom: -70px;
+}
+
+.orderBtn h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.3px;
+  font-size: 22px;
+}
+
+/*gallery*/
+.homeGallery{
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#galleryHead{
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 23px;
+  letter-spacing: 1.2px;
+}
+
+.homeGalleryCont{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.atmos-pic{
+  position: relative;
+  overflow: visible;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.atmos-pic img{
+  width: 100%;
+  height:400px ;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+  border-radius: 8px;
+}
+
+.atmos-pic img:hover{
+  transform: scale(1.09);
+}
+
+
+.galleryBtn{
+  margin-top: 25px;
+}
+
+.popButton{
+  display: inline-block;
+  padding: 10px 17px;
+  font-size: 20px;
+  border:none;
+  border-radius: 4px;
+  text-decoration: none;
+
+}
+
+.textCol{
+  background-color: #FFFFF0;
+  color:#353839 ;
+}
+
+.imgCol{
+  background-color:#FFFFF0 ; 
+}
+
+.popButton {
+  background-color: #353839;
+  color: #FFFFF0;
+}
+
+/*Restaurant gallery*/
+.homeGallery{
+  background-color: #D6D6D6;
+}
+
+#galleryHead{
+  color: #272B2B;
+}
+
+
+
+
+
