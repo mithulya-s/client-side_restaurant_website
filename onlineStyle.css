@@ -1,0 +1,326 @@
+.pgIntro{
+  background-color: beige;
+  color: #353839;
+  padding: 60px 30px;
+  margin-top: 90px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.pgIntro h1{
+  font-size: 30px; 
+  margin-bottom: 20px;
+  color: #272B2B;
+  letter-spacing: 1.6px;
+}
+
+.pgIntro p{
+  font-size:20px; 
+  line-height: 1.7;
+  margin: 0 50px;
+  color: #353839;
+  opacity: 2.4;
+  letter-spacing: 1.6px;
+}
+
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  justify-items: center;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 248);
+  border: 1px solid #D6D6D6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  text-align: center;
+  width: 280px;
+  transition: transform 0.4s ease-in-out;
+  margin-bottom: 20px;
+  height: auto;
+
+}
+
+.card img{
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.card:hover{
+  transform: scale(1.07);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.textCont{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding:09px;
+  align-items: center;
+  
+}
+
+.textCont h3{
+  font-size: 18px;
+  margin-bottom: 3px;
+  letter-spacing: 1.5px;
+  color: #272B2B;
+  font-weight: 700;
+}
+
+.textCont p {
+  font-size: 18px;
+  color: #353839;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.pr{
+  font-size: 17px;
+}
+
+.textCont label{
+  display: block;
+  margin: 6px 2px;
+  font-size: 18px;
+  color: #353839;
+
+}
+
+.textCont input[type="number"] {
+  width: 70px;
+  height: 26px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid #D6D6D6;
+  border-radius: 6px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 2px;
+}
+
+
+.categoryTitle {
+  text-align: center;
+  font-size: 28px;
+  margin: -30px 10px;
+  color: #353839;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  
+}
+
+.orderFormFull{
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color:  rgb(255, 255, 248);;
+  border-radius: 14px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+form fieldset{
+  border: 1px solid #D6D6D6;
+  padding: 20px;
+  margin-bottom: 29px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+  background-color:white;
+}
+
+form legend{
+  font-size: 19px;
+  font-weight: bold;
+  color: #353839;
+  padding: 5px 10px;
+  border-left: 5px solid #f88400;
+  margin-bottom: 15px;
+  letter-spacing: 1.1px;
+}
+
+form input, form textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 14px;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #353839;
+}
+
+
+form textarea{
+  height: 100px;
+  resize: none;/*to prevent from being resized all the time*/
+  width: 970px;
+  margin-left: 10px;
+  margin-right: 14px;
+  
+}
+
+
+form button{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  width: 100%;
+  background-color: #353839;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.5s ease-in-out, box-shadow 0.3s ease;
+  text-align: center; 
+  
+}
+
+form button:hover{
+  background-color: black;
+  transform: scale(1.006);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.radioButtons{
+  display: flex;
+  gap: 300px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -16px;
+  margin-bottom: 10px;
+}
+
+#methodText{
+  margin-top: 0px;
+  font-size: 16px;
+  letter-spacing: 1.1px;
+}
+
+.radioButtons label{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #353839;
+}
+
+form input[type="text"]{
+  width: 900px;
+  margin-left: 6px;
+}
+
+
+.radioButtons input[type="radio"]{
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+form input[type="checkbox"] {
+  transform: scale(1.2); 
+  margin-left: -360px;
+  padding: 0px;
+  size: 24px;
+
+}
+
+label[for="pickup"]{
+  margin-left: 130px;
+}
+
+label[for="terms"] {
+  font-size: 18px;
+  color: #353839;
+  margin-left: -390px;
+}
+
+.persDet label{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.termCont{
+  display: flex;
+  align-items: center;
+  margin-right: 36px;
+  padding-top: 15px;
+  padding-bottom: -3px;
+}
+
+
+form label{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.persDet,
+.deliveryDet{
+  margin-top: 20px;
+}
+
+#adSection{
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+  margin-bottom: 13px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+#adSection label{
+  margin-left: 6px;
+  letter-spacing: 1.1px;
+}
+
+.totalContainer{
+  text-align: center;
+  font-size: 29px;
+  color: #353839;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 2px solid #D6D6D6;
+  padding-bottom: 14px;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-top: 14px;
+  border-radius: 16px;
+}
+
+.totalContainer h3{
+  font-weight: bold;
+  font-size:28px ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#total{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+.addDet label{
+  margin-left: 9px;
+}
+
+.addDet textarea{
+  margin-right: 10px;
+}
