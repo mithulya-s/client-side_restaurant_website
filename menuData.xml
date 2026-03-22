@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foodMenu>
+	<category name="Appetizers">
+		<item>
+			<name>Classic French Onion Soup</name>
+			<image>onion.png</image>
+			<description>Caramelized onion in a savoury broth, topped with a golden crust of melted
+				Gruyere cheese.</description>
+			<price>1200</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Niçoise salad</name>
+			<image>nic.png</image>
+			<description>A vibrant mix of fresh vegetables, tuna, and olives, dressed in a tangy
+				vinaigrette.</description>
+			<price>1500</price>
+			<type>Non-Vegetarian</type>
+			<popular>false</popular>
+		</item>
+
+		<item>
+			<name>Tomato Confit</name>
+			<image>confit.png</image>
+			<description>Slow-roasted cherry tomatoes with aromatic herbs and olive oil, bursting
+				with flavor.</description>
+			<price>950</price>
+			<type>Vegetarian</type>
+			<popular>false</popular>
+		</item>
+
+		<item>
+			<name>Bouillabaisse</name>
+			<image>boul.png</image>
+			<description>A rich Provençal fish stew with a medley of seafood, saffron, and
+				vegetables.</description>
+			<price>2000</price>
+			<type>Non-Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Gougères</name>
+			<image>puffs.png</image>
+			<description>Light and airy choux pastry bites filled with creamy, savory cheese.</description>
+			<price>800</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+	</category>
+
+	<category name="Mains">
+		<item>
+			<name>Lobster Thermidor</name>
+			<image>lob.png</image>
+			<description>Succulent lobster meat in a creamy mustard sauce, topped with a golden
+				cheese crust.</description>
+			<price>3800</price>
+			<type>Non-Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Chicken Dijon</name>
+			<image>dijon.png</image>
+			<description>Tender chicken breasts in a creamy mustard sauce with a hint of white wine.</description>
+			<price>2000</price>
+			<type>Non-Vegetarian</type>
+			<popular>false</popular>
+		</item>
+
+		<item>
+			<name>Quiche Lorraine</name>
+			<image>quiche.png</image>
+			<description>The classic savory tart with bacon, cheese, and a rich custard filling.</description>
+			<price>1800</price>
+			<type>Non-Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Salmon Rillette on toast</name>
+			<image>ril.png</image>
+			<description>A creamy spread of smoked salmon, herbs, and a touch of lemon zest on
+				fresh-baked bread.</description>
+			<price>2400</price>
+			<type>Non-Vegetarian</type>
+			<popular>false</popular>
+		</item>
+
+		<item>
+			<name>Ratatouille</name>
+			<image>ratatouille.png</image>
+			<description>A hearty vegetable stew of eggplant, zucchini, tomatoes, and bell peppers.</description>
+			<price>1900</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Stuffed Peppers</name>
+			<image>bell.png</image>
+			<description>Bell peppers filled with a savory mixture of rice, herbs, and vegetables.</description>
+			<price>1600</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Herb crusted salmon</name>
+			<image>salmon.png</image>
+			<description>Fresh salmon fillet coated in a fragrant herb crust, baked to perfection.</description>
+			<price>3000</price>
+			<type>Non-Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Classic Chicken Cassoulet</name>
+			<image>cass.png</image>
+			<description>A comforting casserole of chicken, beans, and savory herbs, slow-cooked to
+				perfection.</description>
+			<price>2200</price>
+			<type>Non-Vegetarian</type>
+			<popular>false</popular>
+		</item>
+
+		<item>
+			<name>Mushroom Risotto</name>
+			<image>risotto.png</image>
+			<description>Creamy Arborio rice cooked with earthy mushrooms and finished with
+				Parmesan.</description>
+			<price>1900</price>
+			<type>Vegetarian</type>
+			<popular>false</popular>
+		</item>
+
+		<item>
+			<name>Chicken Corden Bleu</name>
+			<image>bleu.png</image>
+			<description>Breaded chicken breast stuffed with ham and cheese, cooked to a golden
+				crisp.</description>
+			<price>2700</price>
+			<type>Non-Vegetarian</type>
+			<popular>true</popular>
+		</item>
+	</category>
+
+	<category name="Desserts">
+		<item>
+			<name>Profiteroles</name>
+			<image>profitero.png</image>
+			<description>Delicate choux pastry filled with vanilla ice cream and drizzled with
+				chocolate sauce.</description>
+			<price>1200</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Tarte Tatin</name>
+			<image>tarte.png</image>
+			<description>The classic upside-down caramelized apple tart with a flaky pastry crust.</description>
+			<price>1500</price>
+			<type>Vegetarian</type>
+			<popular>false</popular>
+
+		</item>
+
+		<item>
+			<name>Poached Pear</name>
+			<image>poach.png</image>
+			<description>Elegant pears poached in a fragrant spiced syrup, served with a drizzle of
+				sauce.</description>
+			<price>1300</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Crème Brûlée</name>
+			<image>brulee.png</image>
+			<description>Silky vanilla custard topped with a thin, crisp layer of caramelized sugar.</description>
+			<price>1400</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Chocolate Souffle</name>
+			<image>lava.png</image>
+			<description>A decadent chocolate dessert with a light, airy texture and a molten
+				center.</description>
+			<price>1800</price>
+			<type>Vegetarian</type>
+			<popular>false</popular>
+		</item>
+	</category>
+
+	<category name="Beverages">
+		<item>
+			<name>Lavender Tea</name>
+			<image>lavender.png</image>
+			<description>A soothing herbal tea infused with the gentle floral notes of lavender.</description>
+			<price>600</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Hibiscus Tea</name>
+			<image>hibiscus.png</image>
+			<description>A vibrant, tangy tea made from dried hibiscus flowers, with a hint of
+				natural sweetness.</description>
+			<price>600</price>
+			<type>Vegetarian</type>
+			<popular>true</popular>
+		</item>
+
+		<item>
+			<name>Fresh Pressed Juice</name>
+			<image>pine.png</image>
+			<description>Freshly squeezed pineapple juice, a refreshing and tropical delight.</description>
+			<price>700</price>
+			<type>Vegetarian</type>
+			<popular>false</popular>
+		</item>
+
+		<item>
+			<name>Americano</name>
+			<image>americano.png</image>
+			<description>A classic espresso diluted with hot water, offering a smooth and rich
+				flavor.</description>
+			<price>800</price>
+			<type>Vegetarian</type>
+			<popular>false</popular>
+		</item>
+
+		<item>
+			<name>Cafe au Lait</name>
+			<image>cap.png</image>
+			<description>A perfect blend of hot coffee and steamed milk, for a creamy and comforting
+				drink.</description>
+			<price>900</price>
+			<type>Vegetarian</type>
+			<popular>false</popular>
+		</item>
+	</category>
+
+</foodMenu>
