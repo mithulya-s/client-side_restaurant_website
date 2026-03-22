@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="mainStyles.css">
+	<link rel="stylesheet" href="contactStyles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<title>Contact Us</title>
+</head>
+
+<body>
+	<header>
+		<!--Navigation bar-->
+		<nav>
+			<div class="navigationBar">
+				<a href="Home.html"><img class="logo" src="logThree.png" alt="Restaurant Logo" ></a>
+
+				<div class= "navLinks">
+					<a class="active" href="Home.html" target="_blank">Home</a>
+					<a href="Menu.html" target="_blank">Menu</a>
+					<a href="About.html" target="_blank">About Us</a>
+					<a href="Gallery.html" target="_blank">Gallery</a>
+					<a href="Contact.html" target="_blank">Contact Us</a>
+					<div id="onlineOrder">
+						<a href="OnlineOrder.html" target="_blank" class="button">Online Order</a>
+					</div>
+				</div>
+			</div>	
+		</nav>	
+	</header>
+
+
+	<section class="intro">
+		<div class="cntcIntro">
+	    	<h2>We’d Love to Hear From You!</h2>
+	    	<p>Whether you’re looking to reserve a table, inquire about our menu, or leave feedback, we’re here to help.<br><br>Feel free to reach out using the form below or via the contact details provided.</p>
+	    </div>
+	</section>
+
+	<div class="btnColumn">
+		<a href="#opHours" class="button">Hours</a>
+		<a href="#contDetails" class="button">Contact Details</a>
+		<a href="#contactForm" class="button">Inquiry Form</a>
+		<a href="#socials" class="button">Socials</a>
+		<a href="#locMap" class="button">Location Map</a>
+		
+	</div>
+
+	<div class="opHours" id="opHours">
+		<h2>Opening Hours</h2>
+			<p>Tuesday to Sunday : <br> 11.00 A.M to 9.00 P.M <br><br> Monday : <br> 11.00 A.M to 2.00 P.M</p>	
+	</div>
+
+	<br>
+	<br>
+	<div class="contDetails" id="contDetails">
+		<h2>Telephone Numbers: </h2>
+		<h3>For general enquiries</h3>
+		<h4 class="phone-number">(+94)112 292929</h4>
+		<h4 class="phone-number">(+94)716 452452</h4>
+	
+		<h3>For private dining enquiries</h3>
+		<h4 class="phone-number">(+94)712 263163</h4>
+	
+		<h2>Email: </h2>
+		<h3>rafale@gmail.com</h3>
+	
+		<h2>Address</h2>
+		<h3>No 29, Galle Road, Colombo 03. Sri Lanka.</h3>
+	</div>
+	
+
+	<section class="contactForm" id="contactForm">
+		<h2>Send Us a message</h2>
+		<form action="#" method="post" novalidate>
+			<label for="name">Full Name: </label><br>
+			<input type="text" name="name" id="name"><br><br>
+
+			<label for="email">Email: </label><br>
+			<input type="text" name="email" id="email"><br><br>
+
+			<label for="subject">Subject: </label><br>
+			<input type="text" name="subject" id="subject"><br><br>
+
+			<label for="msgInDet">Message: </label><br>
+			<textarea id="msgInDet" name="message"></textarea><br><br>
+			
+			<div id="btnContainer">
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</div>	
+
+		</form>
+	</section>
+
+	<div class="socials" id="socials">
+		<h1>Connect with our Socials</h1>
+		<div class="social">
+			<a href="https://www.facebook.com" class="fa fa-facebook" target="_blank" aria-label="Facebook"></a>
+			<a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" aria-label="Instagram"></a>
+			<a href="https://wa.me/yournumber" class="fa fa-whatsapp" target="_blank" aria-label="WhatsApp"></a>
+			<a href="https://www.pinterest.com" class="fa fa-pinterest" target="_blank" aria-label="Pinterest"></a>
+			<a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank" aria-label="LinkedIn"></a>
+			<a href="https://www.x.com" class="fa fa-x" target="_blank" aria-label="X"></a>
+		</div>
+	</div>
+	
+	<div class="locMap" id="locMap">
+		<h2>Location</h2>
+		<div class="googleMap">
+			<iframe width="800" height="450" style="border:0"  loading="lazy" allowfullscreen 
+   				referrerpolicy="no-referrer-when-downgrade" 
+  				 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.417413644037!2d-122.34935812403472!3d47.62050687918512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549015d21cc3ad1d%3A0x78a05fa86a1f79c8!2sSpace%20Needle!5e0!3m2!1sen!2sus!4v1612929294567!5m2!1sen!2sus">
+			</iframe>		
+		</div>
+	</div>
+
+	<footer>
+		<div class="foot">
+			<div class="hoursFooter">
+				<h2>Operating Hours</h2>
+				<p>Tuesday to Sunday : <br> 11.00 A.M to 9.00 P.M <br><br> Monday : <br> 11.00 A.M to 2.00 P.M
+			</div>
+			<div class="addressFooter">
+				<h2>Location</h2>
+				<p> No 29, Galle Road, Colombo 03.</p>
+			</div>
+			<div class= "contactFooter">
+				<h2>Get in touch</h2>
+				<p> Email : rafale@gmail.com <br><br> Phone : 0112-112929 
+			</div>
+			<div class="socialFooter">
+				<h2>Stay Updated</h2>
+				<div class="social-links">
+					<a href="https://www.facebook.com" class="fa fa-facebook" target="_blank" aria-label="Facebook"></a>
+					<a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" aria-label="Instagram"></a>
+					<a href="https://wa.me/yournumber" class="fa fa-whatsapp" target="_blank" aria-label="WhatsApp"></a>
+					<a href="https://www.pinterest.com" class="fa fa-pinterest" target="_blank" aria-label="Pinterest"></a>
+					<a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank" aria-label="LinkedIn"></a>
+					<a href="https://www.x.com" class="fa fa-x" target="_blank" aria-label="X"></a>
+				</div>
+			</div>
+		</div>		
+	</footer>
+
+
+	<script src="contactScript.js"></script>
+</body>
+</html>
