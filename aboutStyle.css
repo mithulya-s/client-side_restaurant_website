@@ -1,0 +1,256 @@
+
+.backImg{
+  position: relative;
+  text-align: center;
+  color: ivory;
+}
+
+#backImg img{
+  width: 100%;
+  height: 740px; 
+  border-radius: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  object-fit: cover;
+  
+}
+
+.value{
+  align-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px 40px;
+  background-color: #F5F5DC;
+  border-radius: 7px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  transition: transform 0.6s ease;
+}
+
+.value:hover{
+  transform: scale(1.06);
+}
+
+
+.value h1, .teamIntro h1{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.value p, .teamIntro p{
+  font-size: 22px;
+  text-align: center;
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 0px 40px;
+  letter-spacing: 1.6px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.headTxt h1{
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 1.6px;
+}
+
+.storyGridOne, .storyGridTwo{
+  display: flex ;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 20px;
+}
+
+#textColumnOne, #textColumnTwo{
+  flex: 2;
+  max-width: 66%;
+  margin-left: 15px; 
+  margin-right: 30px; 
+  background-color:beige ; 
+  border-radius: 7px ;
+  padding: 20px 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0,0.1);
+  margin-bottom: 20px;
+}
+
+#textColumnOne{
+  height: 440px;
+  transition: transform 0.4s ease;
+
+}
+
+#textColumnTwo{
+  height: 218px;
+  transition: transform 0.4s ease;
+}
+
+#textColumnOne:hover{
+  transform: scale(1.05);
+
+}
+
+
+#textColumnTwo:hover{
+  transform: scale(1.05);
+
+}
+
+#textColumnOne p, #textColumnTwo p{
+  margin: 23px;
+  line-height: 1.8;
+  text-align: center; 
+  font-size:20px;
+  letter-spacing: 1px;
+
+}
+
+#pictureColOne, #pictureColTwo{
+  flex: 1;
+  background-color: #353839;
+  max-width: 33%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  border-radius: 6px;
+
+}
+
+#pictureColOne img, #pictureColTwo img{
+width: 100%;
+border-radius: 5px;
+object-fit: cover;
+}
+
+#pictureColTwo img{
+  max-width: 460px;
+  height: 260px;
+  border: 1px solid beige;
+  margin-top: -20px;
+  transition: transform 0.4s ease;
+}
+
+#pictureColTwo img:hover{
+  transform: scale(1.05);
+}
+
+
+#pictureColOne img{
+  height: 480px;
+  width: 450px;
+  margin-right: 30px;
+  border: 1px solid beige;
+  margin-top: -30px;
+  transition: transform 0.4s ease;
+}
+
+
+#pictureColOne img:hover{
+  transform: scale(1.05);
+}
+
+.story{
+  background-color: #353839;
+  padding-bottom: 30px;
+  padding-top: 12px;
+  margin-left: 18px;
+  margin-right: 18px;
+  border-radius: 7px;
+  }
+
+.story h1{
+  color: beige;
+
+}
+
+
+.teamIntro {
+  padding: 30px 40px;
+}
+
+.teamIntro h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.teamIntro p{
+  max-width: 900px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+
+.teamCont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding: 20px 40px;
+}
+
+.chef{
+  flex: 1 1 calc(33.3%  20px); /* 3 columns with space between */
+  text-align: center;
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 20px;
+  margin: 15px;
+  transition: transform 0.4s ease;
+}
+
+
+.chef img{
+  width: auto;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: 7px;
+  height: 360px;
+  margin-bottom: 10px;
+}
+
+.chef h2{
+  font-size: 20px;
+  margin-top: 15px;
+  color: #333;
+  letter-spacing: 1.2px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.chef p{
+  font-size: 18px;
+  color: black ;
+  margin-top: 9px;
+}
+
+.chef:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 9px; 
+  transform: scale(1.05);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
