@@ -4,29 +4,19 @@ A beautifully designed, fully accessible client-side restaurant website for **RA
 
 ---
 
-## 🎯 What It Does
+## What It Does
 
 **RAFALE** is a complete restaurant experience brought online:
 
-- 🏠 **Stunning Home Page** - Hero section with immersive video, restaurant story, and featured dishes
-- 📋 **Dynamic Menu System** - Browse appetizers, mains, desserts, and beverages with intelligent filtering
+- 🏠 **Home Page** - Hero section with immersive video, restaurant story, and featured dishes
+- 📋 **Menu System** - Browse appetizers, mains, desserts, and beverages with intelligent filtering
 - 🛒 **Online Ordering** - Add items to cart, fill delivery details, calculate totals in real-time
 - 🖼️ **Gallery** - Showcase restaurant ambiance and dining moments
 - 📝 **About & Contact** - Learn the restaurant's story and get in touch
-- ♿ **Accessibility First** - WCAG compliant with semantic HTML, ARIA labels, and keyboard navigation
 
 ---
 
 ## ✨ Key Features
-
-### 🎨 Pages
-- **Home.html** - Hero section, restaurant introduction, featured dishes, gallery preview, footer
-- **Menu.html** - Interactive menu with XML data source, category-based filtering
-- **OnlineOrder.html** - Full-featured ordering form with live price calculation
-- **About.html** - Restaurant history and philosophy
-- **Contact.html** - Get in touch section
-- **Gallery.html** - Visual showcase of the restaurant
-- **ThankYou.html** - Order confirmation page
 
 ### 🔍 Smart Filtering
 Filter menu items by:
@@ -63,7 +53,7 @@ Filter menu items by:
 | **JavaScript** | Dynamic interactions & filtering | 20.1% |
 
 ### Additional Resources
-- **XML** - Menu data stored in `menuData.xml`
+- **XML** - Menu data storage
 - **Font Awesome** - Icon library for social links
 - **Google Fonts** - Cinzel Decorative & Raleway typefaces
 - **No Framework** - Pure vanilla HTML, CSS, JavaScript
@@ -98,26 +88,6 @@ Filter menu items by:
 
 ---
 
-## 💡 How It Works
-
-### Menu Filtering
-The menu system loads dish data from `menuData.xml` and dynamically displays items. Click filter buttons to see:
-- All items from a specific category
-- Only vegetarian or non-vegetarian dishes
-- Items within a certain price range
-- Popular recommendations
-
-### Online Ordering
-1. Select dishes and set quantities (price updates live)
-2. Fill in your name, email, and phone number
-3. Choose pickup or home delivery
-4. Add delivery address and preferred date
-5. Include any special requests
-6. Review total price
-7. Accept terms and submit
-
----
-
 ## 🎯 Design Philosophy
 
 ✅ **User-Centric** - Intuitive navigation and clear calls-to-action  
@@ -126,37 +96,6 @@ The menu system loads dish data from `menuData.xml` and dynamically displays ite
 ✅ **Performance** - Pure client-side, no backend required  
 ✅ **Elegant** - French upscale aesthetic with modern design  
 ✅ **Functional** - Complete restaurant experience online  
-
----
-
-## 📱 Menu Items Showcase
-
-### Appetizers 🥘
-Classic French Onion Soup, Niçoise Salad, Tomato Confit, Bouillabaisse, Gougères
-
-### Mains 🍖
-Lobster Thermidor, Chicken Dijon, Quiche Lorraine, Salmon Rillette, Ratatouille, Herb Crusted Salmon
-
-### Desserts 🍰
-Profiteroles, Tarte Tatin, Poached Pear, Crème Brûlée, Chocolate Souffle
-
-### Beverages ☕
-Lavender Tea, Hibiscus Tea, Fresh Pressed Juice, Americano, Café au Lait
-
----
-
-## 🌐 Restaurant Info
-
-**Name:** RAFALE (An Upscale French Restaurant)  
-**Location:** No 29, Galle Road, Colombo 03  
-**Phone:** 0112-112929  
-**Email:** rafale@gmail.com  
-
-**Hours:**
-- Tuesday - Sunday: 11:00 AM - 9:00 PM
-- Monday: 11:00 AM - 2:00 PM
-
-**Follow Us:** Facebook | Instagram | WhatsApp | Pinterest | LinkedIn | X
 
 ---
 
@@ -173,5 +112,3 @@ This project demonstrates:
 - UX/UI best practices
 
 ---
-
-**Welcome to RAFALE. An exquisite dining experience. 🍽️✨**
